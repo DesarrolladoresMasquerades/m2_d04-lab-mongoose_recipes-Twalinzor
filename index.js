@@ -37,6 +37,3 @@ mongoose
     console.error("Error connecting to the database", error);
   });
 mongoose.connection.close();
-  //Recipe.deleteOne({title:"Carrot Cake"})
-    //.then(()=>{console.log("Carrot Cake Deleted")})
-  
